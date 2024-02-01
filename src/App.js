@@ -38,7 +38,7 @@ function Board({xIsNext,squares,onPlay,currentMove}) {
   }else{
     status="Next player: "+(xIsNext ?"X":"O");
   }
-  //ここでループを使うことでハイライトの処理をまとめられた。
+  //ここでループを使うことでハイライトの処理をまとめられた。配列を返す関数を入れると展開してくれる。
   return (
     <>
       <div className={statusClassName}>{status}</div>
