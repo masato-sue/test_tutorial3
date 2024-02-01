@@ -88,4 +88,18 @@
   .game-info {
     margin-left: 20px;
   }
+
+  .highlight{  
+    background:rgb(148, 214, 148)
+  }
+
+  .yellowback{
+    background:rgb(192, 192, 57);
+    width:43%
+  }
+  
+  .grayback{
+    background:rgb(211, 208, 208);
+    width:23%;
+  }
   
